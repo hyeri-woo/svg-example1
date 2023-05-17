@@ -1,0 +1,29 @@
+@keyframes drawFlower {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+body {
+    margin: 0;
+    height: 2000px;
+    background: linear-gradient(to bottom, rgb(255, 230, 3), green);
+}
+
+svg {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#path {
+    stroke: white;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    /* stroke-dasharray: 2687 2687; */
+    /* stroke-dashoffset: 2687px; */
+    /* animation: drawFlower 5s linear infinite; */
+}
+
+/* animation */
